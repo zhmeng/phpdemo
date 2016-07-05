@@ -1,3 +1,12 @@
+<?php
+require("log.php");
+/**
+ * Created by IntelliJ IDEA.
+ * User: wjr
+ * Date: 16-6-14
+ * Time: 下午3:11
+ */
+?>
 <!DOCTYPE html>
 <html>
 <head>
