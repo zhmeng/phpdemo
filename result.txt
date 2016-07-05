@@ -1,0 +1,281 @@
+﻿================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: bank_type value: CFT
+key: cash_fee value: 1
+key: fee_type value: CNY
+key: is_subscribe value: N
+key: mch_id value: 15121009
+key: openid value: oaUtSuHCM7d0f5GvCmmV7nTtCzm8
+key: out_trade_no value: 9856885108165443
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 2F50EA9D1E18DFB9367C68308B1BD877
+key: third_trans_id value: 4002532001201606137210492419
+key: time_end value: 20160613173547
+key: total_fee value: 1
+key: trade_state value: SUCCESS
+key: trade_type value: trade.weixin.native
+key: transaction_id value: 1512100920160613005631910
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: mch_id value: 15121009
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8E2919BC5D6DD99E5A5D3C5BB5626FD0
+key: trade_state value: NOTPAY
+key: trade_type value: trade.weixin.native
+================查询订单===================
+key: bank_type value: CFT
+key: cash_fee value: 1
+key: fee_type value: CNY
+key: is_subscribe value: N
+key: mch_id value: 15121009
+key: openid value: oaUtSuHCM7d0f5GvCmmV7nTtCzm8
+key: out_trade_no value: 477633041329682
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8C4B5E6DD41B6C22F4F5E63A3CE63CCC
+key: third_trans_id value: 4002532001201606147249875016
+key: time_end value: 20160614150316
+key: total_fee value: 1
+key: trade_state value: SUCCESS
+key: trade_type value: trade.weixin.native
+key: transaction_id value: 1512100920160614005704053
+================查询订单===================
+key: bank_type value: CFT
+key: cash_fee value: 1
+key: fee_type value: CNY
+key: is_subscribe value: N
+key: mch_id value: 15121009
+key: openid value: oaUtSuHCM7d0f5GvCmmV7nTtCzm8
+key: out_trade_no value: 477633041329682
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8C4B5E6DD41B6C22F4F5E63A3CE63CCC
+key: third_trans_id value: 4002532001201606147249875016
+key: time_end value: 20160614150316
+key: total_fee value: 1
+key: trade_state value: SUCCESS
+key: trade_type value: trade.weixin.native
+key: transaction_id value: 1512100920160614005704053
+================查询订单===================
+key: bank_type value: CFT
+key: cash_fee value: 1
+key: fee_type value: CNY
+key: is_subscribe value: N
+key: mch_id value: 15121009
+key: openid value: oaUtSuHCM7d0f5GvCmmV7nTtCzm8
+key: out_trade_no value: 477633041329682
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 8C4B5E6DD41B6C22F4F5E63A3CE63CCC
+key: third_trans_id value: 4002532001201606147249875016
+key: time_end value: 20160614150316
+key: total_fee value: 1
+key: trade_state value: SUCCESS
+key: trade_type value: trade.weixin.native
+key: transaction_id value: 1512100920160614005704053
+================提交退款===================
+key: coupon_refund_fee value: 0
+key: mch_id value: 15121009
+key: out_refund_no value: 7847134629264474
+key: out_trade_no value: 477633041329682
+key: refund_channel value: ORIGINAL
+key: refund_fee value: 1
+key: refund_id value: 1512100920160614005704325
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 3FBC628858FAD7D31B300D3149C00218
+key: third_trans_id value: 4002532001201606147249875016
+key: total_fee value: 1
+key: transaction_id value: 1512100920160614005704053
+================查询退款===================
+key: cash_fee value: 1
+key: fee_type value: CNY
+key: mch_id value: 15121009
+key: out_refund_no_0 value: 7847134629264474
+key: out_trade_no value: 477633041329682
+key: refund_channel_0 value: ORIGINAL
+key: refund_count value: 1
+key: refund_fee_0 value: 1
+key: refund_id_0 value: 1512100920160614005704325
+key: refund_status_0 value: SUCCESS
+key: result_code value: SUCCESS
+key: return_code value: SUCCESS
+key: sign value: 56CC1F792B026EFF6D52F76E75B91754
+key: third_trans_id value: 4002532001201606147249875016
+key: total_fee value: 1
+key: transaction_id value: 1512100920160614005704053
