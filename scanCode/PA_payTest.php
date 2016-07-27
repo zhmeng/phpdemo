@@ -1,6 +1,6 @@
 <div class="content_title">
     <h2>支付测试</h2>
-    <span>公众帐号支付测试</span></div>
+    <span>扫码支付测试</span></div>
 <div class="pe_order">
     <div class="pe_nuber">
         <label>商户订单号</label>
@@ -22,7 +22,7 @@
     </div>
     <div class="pe_nuber">
         <label>交易类型</label>
-        <input name="trade_type" value="trade.weixin.jspay">
+        <input name="trade_type" value="trade.weixin.native">
         <span>*</span>&nbsp;&nbsp;&nbsp;长度16
     </div>
     <input type="button" value="提交" class="button" />

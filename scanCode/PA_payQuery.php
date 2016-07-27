@@ -9,7 +9,7 @@
 <div id="queryOrder">
     <div class="content_title">
         <h2>查询测试</h2>
-        <span>公众帐号查询测试</span></div>
+        <span>扫码查询测试</span></div>
     <div class="pe_order">
         <div class="pe_nuber">
             <label>商户订单号</label>

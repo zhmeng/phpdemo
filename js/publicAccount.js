@@ -12,15 +12,17 @@ $(function(){
 
     $('div.menu li').bind('click',function(e){
         var curTarget = $(e.currentTarget), href = curTarget.attr('href'),suffix = href.substring(href.lastIndexOf('\.'));
-        curTarget.addClass('cur').siblings('.cur').removeClass('cur');
+        curTarget.addClass('checked').siblings('.checked').removeClass('checked');
         $('#form_info').loadHtml(routeUrl[href] + '.php',suffix);
         $('#resp_info').empty();
+        return false;
     });
-    $('#pay_platform').delegate('span.submit','click',function(e){
+    $('.right').delegate('input[type=button]','click',function(e){
+        console.log('invoked');
         var params = $('.form_wrap').serializeEl();
-        var invokeMethod = $('ul li.cur').attr('href');
+        var invokeMethod = $('ul li.checked').attr('href');
         params['method'] = invokeMethod;
-        $.post('/payInterface/publicAccount/Handler.php',params,function(res){
+        $.post('/libs/Handler.php',params,function(res){
             console.log(res);
             var postJ = {'jsonResult': res};
             $('#resp_info').loadHtml('PA_resp.php', postJ);

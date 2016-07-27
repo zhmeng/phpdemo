@@ -1,9 +1,10 @@
 <?php
+
+/***
+ * Class Utils　　对 XML 进行拼装解析
+ */
 class Utils{
-    /**
-     * 将数据转为XML
-     */
-    public static function toXml($array){
+    public static function to($array){
         $xml = '<xml>';
         forEach($array as $k=>$v){
             $xml.='<'.$k.'><![CDATA['.$v.']]></'.$k.'>';
@@ -11,34 +12,16 @@ class Utils{
         $xml.='</xml>';
         return $xml;
     }
-    
-    public static function dataRecodes($title,$data){
-        $handler = fopen('result.txt','a+');
-        $content = "================".$title."===================\n";
-        if(is_string($data) === true){
-            $content .= $data."\n";
-        }
-        if(is_array($data) === true){
-            forEach($data as $k=>$v){
-                $content .= "key: ".$k." value: ".$v."\n";
-            }
-        }
-        $flag = fwrite($handler,$content);
-        fclose($handler);
-        return $flag;
-    }
 
-    public static function parseXML($xmlSrc){
+    public static function parse($xmlSrc){
         if(empty($xmlSrc)){
             return false;
         }
         $array = array();
         $xml = simplexml_load_string($xmlSrc);
-        $encode = Utils::getXmlEncode($xmlSrc);
-
+        $encode = Utils::getEncode($xmlSrc);
         if($xml && $xml->children()) {
 			foreach ($xml->children() as $node){
-				//有子节点
 				if($node->children()) {
 					$k = $node->getName();
 					$nodeXml = $node->asXML();
@@ -60,7 +43,7 @@ class Utils{
     }
 
     //获取xml编码
-	function getXmlEncode($xml) {
+	public static function getEncode($xml) {
 		$ret = preg_match ("/<?xml[^>]* encoding=\"(.*)\"[^>]* ?>/i", $xml, $arr);
 		if($ret) {
 			return strtoupper ( $arr[1] );

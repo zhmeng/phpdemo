@@ -1,18 +1,8 @@
 <?php
-/**
- * 请求类
- * ============================================================================
- * api说明：
- * init(),初始化函数，默认给一些参数赋值，如cmdno,date等。
- * getGateURL()/setGateURL(),获取/设置入口地址,不包含参数值
- * getKey()/setKey(),获取/设置密钥
- * getParameter()/setParameter(),获取/设置参数值
- * getAllParameters(),获取所有参数
- * getRequestURL(),获取带参数的请求URL
- * getDebugInfo(),获取debug信息
- * 
- * ============================================================================
- *
+
+/***
+ * Class RequestHandler
+ * 在请求接口前，对数据进行组装，主要用于数据的签名拼装
  */
 class RequestHandler {
 	
@@ -21,10 +11,7 @@ class RequestHandler {
 	
 	/** 请求的参数 */
 	var $parameters;
-	
-	/** debug信息 */
-	var $debugInfo;
-	
+
 	function __construct() {
 		$this->RequestHandler();
 	}
@@ -32,14 +19,12 @@ class RequestHandler {
 	function RequestHandler() {
 		$this->key = "";
 		$this->parameters = array();
-		$this->debugInfo = "";
 	}
 	
 	/**
 	*初始化函数。
 	*/
 	function init() {
-		//nothing to do
 	}
 	
 	/**
@@ -97,16 +82,9 @@ class RequestHandler {
 	function getAllParameters() {
 		return $this->parameters;
 	}
-		
-	/**
-	*获取debug信息
-	*/
-	function getDebugInfo() {
-		return $this->debugInfo;
-	}
 	
 	/**
-	*创建md5摘要,规则是:按参数名称a-z排序,遇到空值的参数不参加签名。
+	* 签名
 	*/
 	function createSign() {
 		$signPars = "";
@@ -119,18 +97,8 @@ class RequestHandler {
 		$signPars .= "key=" . $this->getKey();
 		$sign = strtoupper(md5($signPars));
 		$this->setParameter("sign", $sign);
-		
-		//debug信息
-		$this->_setDebugInfo($signPars . " => sign:" . $sign);
-		
 	}	
-	
-	/**
-	*设置debug信息
-	*/
-	function _setDebugInfo($debugInfo) {
-		$this->debugInfo = $debugInfo;
-	}
+
 
 }
 

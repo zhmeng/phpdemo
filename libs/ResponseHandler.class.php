@@ -1,30 +1,16 @@
 <?php
 
 /**
- * 后台应答类
- * ============================================================================
- * api说明：
- * getKey()/setKey(),获取/设置密钥
- * getContent() / setContent(), 获取/设置原始内容
- * getParameter()/setParameter(),获取/设置参数值
- * getAllParameters(),获取所有参数
- * isTenpaySign(),是否威富通签名,true:是 false:否
- * getDebugInfo(),获取debug信息
- * 
- * ============================================================================
- *
+ *　对返回的数据进行签名验证
  */
 
-class ClientResponseHandler  {
+class ResponseHandler  {
 	
 	/** 密钥 */
 	var $key;
 	
 	/** 应答的参数 */
 	var $parameters;
-	
-	/** debug信息 */
-	var $debugInfo;
 	
 	//原始内容
 	var $content;
@@ -36,7 +22,6 @@ class ClientResponseHandler  {
 	function ClientResponseHandler() {
 		$this->key = "";
 		$this->parameters = array();
-		$this->debugInfo = "";
 		$this->content = "";
 	}
 		
@@ -112,11 +97,9 @@ class ClientResponseHandler  {
 	}	
 	
 	/**
-	*是否签名,规则是:按参数名称a-z排序,遇到空值的参数不参加签名。
-	*true:是
-	*false:否
+	*　接口返回的数据，是否正确的签名
 	*/	
-	function isTenpaySign() {
+	function isRightSign() {
 		$signPars = "";
 		ksort($this->parameters);
 		foreach($this->parameters as $k => $v) {
@@ -128,67 +111,16 @@ class ClientResponseHandler  {
 		
 		$sign = strtolower(md5($signPars));
 		
-		$tenpaySign = strtolower($this->getParameter("sign"));
-				
-		//debug信息
-		$this->_setDebugInfo($signPars . " => sign:" . $sign .
-				" tenpaySign:" . $this->getParameter("sign"));
+		$signOrigin  = strtolower($this->getParameter("sign"));
+
+		return $sign == $signOrigin;
 		
-		return $sign == $tenpaySign;
-		
-	}
-	
-	/**
-	*获取debug信息
-	*/	
-	function getDebugInfo() {
-		return $this->debugInfo;
 	}
 	
 	//获取xml编码
 	function getXmlEncode($xml) {
 		$ret = preg_match ("/<?xml[^>]* encoding=\"(.*)\"[^>]* ?>/i", $xml, $arr);
-		if($ret) {
-			return strtoupper ( $arr[1] );
-		} else {
-			return "";
-		}
-	}
-	
-	/**
-	*设置debug信息
-	*/	
-	function _setDebugInfo($debugInfo) {
-		$this->debugInfo = $debugInfo;
-	}
-	
-	/**
-	 * 是否财付通签名
-	 * @param signParameterArray 签名的参数数组
-	 * @return boolean
-	 */	
-	function _isTenpaySign($signParameterArray) {
-	
-		$signPars = "";
-		foreach($signParameterArray as $k) {
-			$v = $this->getParameter($k);
-			if("sign" != $k && "" != $v) {
-				$signPars .= $k . "=" . $v . "&";
-			}			
-		}
-		$signPars .= "key=" . $this->getKey();
-		
-		$sign = strtolower(md5($signPars));
-		
-		$tenpaySign = strtolower($this->getParameter("sign"));
-				
-		//debug信息
-		$this->_setDebugInfo($signPars . " => sign:" . $sign .
-				" tenpaySign:" . $this->getParameter("sign"));
-		
-		return $sign == $tenpaySign;		
-		
-	
+        return $ret == true ? strtoupper ( $arr[1] ) : "";
 	}
 	
 }

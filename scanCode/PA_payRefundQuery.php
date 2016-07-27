@@ -8,7 +8,7 @@
 ?>
 <div class="content_title">
     <h2>退款查询测试</h2>
-    <span>公众帐号退款查询测试</span></div>
+    <span>扫码退款查询测试</span></div>
 <div class="pe_order">
     <div class="pe_nuber">
         <label>平台订单号</label>
