@@ -17,7 +17,7 @@ $(function(){
         $('#resp_info').empty();
         return false;
     });
-    $('.right').delegate('input[type=button]','click',function(e){
+    $('.right').on('click', 'input[type=button]',function(e){
         console.log('invoked');
         var params = $('.form_wrap').serializeEl();
         var invokeMethod = $('ul li.checked').attr('href');
