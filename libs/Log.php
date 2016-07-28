@@ -72,4 +72,3 @@ function sysrecord($params, $trace, $level) {
     $msg = "[" . date("m-d H:i:s") . "] File:\"" . basename($file) . "\" Func:\"" . $func . "\" Msg:" . json_encode($params) . "\r\n";
     sysfile($filename, $msg, 'add');
 }
-sysdebug('asdfsdf');

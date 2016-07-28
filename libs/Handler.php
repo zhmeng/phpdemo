@@ -69,9 +69,8 @@ class Handler {
     //公众帐号支付测试
     public function payTest(){
         $notify_url = 'http://'.$_SERVER['HTTP_HOST'];
-        $this->reqHandler->setParameter('notify_url',$notify_url.'/request.php?method=callback');
+        $this->reqHandler->setParameter('notify_url',$notify_url.'/common/notify.php');
         $this->reqHandler->setParameter('trade_type', $_POST['trade_type']);
-        $this->reqHandler->setParameter('return_url', ' ');
         $this->url = $this->props->K('PAY_URL');
     }
 
